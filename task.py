@@ -1,0 +1,12 @@
+'''i/p:
+n=12345     
+f=123
+s=45
+'''
+n=12345
+n_str=str(n)
+first=n_str[-1]
+second=n_str[:-1]
+a_str=first+second
+b=int(a_str)
+print(b)
